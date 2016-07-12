@@ -7,8 +7,6 @@ class Profile < ActiveRecord::Base
   validates :uuid, uniqueness: { case_sensitive: false }
 
   SKILL_SCORE = 1.5
-  EDUCATION_YEAR_SCORE = 4
-  EXPERIENCE_MONTH_SCORE = 0.6
 
   state_machine :state, :initial => :draft do
 
@@ -33,8 +31,8 @@ class Profile < ActiveRecord::Base
 
   def calculate_score!
     self.score = (self.skills.to_a.size * SKILL_SCORE) + 
-                (self.educations.inject(0) { |sum, edu| sum + (edu.total_years * EDUCATION_YEAR_SCORE)}) +
-                (self.experiences.inject(0) { |sum, exp| sum + (exp.duration_in_months * EXPERIENCE_MONTH_SCORE)})
+                (self.educations.inject(0) { |sum, edu| sum + edu.score}) +
+                (self.experiences.inject(0) { |sum, exp| sum + exp.score})
     self.save
   end
 

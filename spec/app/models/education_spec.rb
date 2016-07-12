@@ -3,12 +3,8 @@ require 'rails_helper'
 RSpec.describe Education, type: :model do
   let(:first_year) { 2008 }
   let(:final_year) { 2020 }
-  let(:education) {
-    edu = build_stubbed(:education)
-    edu.first_year = first_year
-    edu.final_year = final_year
-    edu
-  }
+  let(:education) { build_stubbed(:education, :first_year => first_year, :final_year => final_year) }
+  
   describe "total_years" do
     context "when first and final years are valid" do
       it "should return valid total years of education" do
