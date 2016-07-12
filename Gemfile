@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -35,6 +35,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'hirb'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'database_cleaner'
+  gem 'mocha'
+  gem 'vcr'
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 group :development do
@@ -45,3 +54,11 @@ group :development do
   gem 'spring'
 end
 
+gem 'nokogiri'
+gem 'linkedin-scraper'
+gem 'rabl'
+gem 'oj'
+gem 'responders'
+gem 'ransack'
+gem 'postgres_ext'
+gem 'state_machine' 
