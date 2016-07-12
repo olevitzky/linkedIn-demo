@@ -44,7 +44,7 @@ private
   
   # schedule a background job to build the profile from linkedin
   def fetch_linkedin_profile
-    ProfileParser.parse_linkedin_profile(self)
+    LinkedinParserWorker.perform_async(self.id)
   end
 
   def set_initial_state

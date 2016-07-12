@@ -8,5 +8,6 @@ FactoryGirl.define do
     current_position "Crossrider"
     summary "Love developing"
     skills ['LinkedIn', 'OOD', 'CSS']
+    state 'draft'
   end
 end

@@ -36,7 +36,7 @@ class ProfileParser
       @profile.calculate_score!
     end
     
-    @profile
+    true    
   rescue Exception => e
     puts "parse! Exception: #{e}"
     return nil
