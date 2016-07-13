@@ -55,7 +55,6 @@ group :development do
 end
 
 gem 'nokogiri'
-gem 'linkedin-scraper'
 gem 'rabl'
 gem 'oj'
 gem 'responders'
@@ -67,3 +66,4 @@ gem 'redis'
 gem 'sidekiq'
 gem 'sidekiq-failures'
 gem 'sinatra'
+gem 'will_paginate'

@@ -35,14 +35,8 @@ RSpec.describe Experience, type: :model do
       let(:end_date) { nil }
 
       it "should return the month diff until now" do
-        @now = DateTime.now
-        DateTime.any_instance.stubs(:now).returns(@now)
-        p DateTime.now
-        sleep(2)
-        p DateTime.now
-        p DateTime.now
-
-        # experience.duration_in_months.should eq((@now.to_time - start_date.to_time) / 1.month)
+        expected_result = ((DateTime.now.to_time - start_date.to_time) / 1.month).round
+        experience.duration_in_months.round.should eq(expected_result)
       end
     end
   end

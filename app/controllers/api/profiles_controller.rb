@@ -1,6 +1,8 @@
 class Api::ProfilesController < ActionController::Base
   respond_to :json
 
+  PER_PAGE = 20
+
   ## GET
   def index
     @profiles = Profile.includes(:experiences, :educations).all
@@ -36,11 +38,12 @@ class Api::ProfilesController < ActionController::Base
   ## Returns the resulted profiles by the search query
   ## searchable columns: full_name, summary, title, current position, score
   def search
-    # pagination??
     if params[:q].present?
       enhance_search_params
       @q = Profile.ransack(params[:q])
-      @profiles = @q.result.includes(:experiences, :educations)
+      @q.sorts = 'id ASC'
+      @page = params[:page].to_i > 0 ? params[:page].to_i : 1
+      @profiles = @q.result.includes(:experiences, :educations).paginate(page: @page, per_page: PER_PAGE)
     else
       render :json => {:message => "You must pass 'q' parameter with the desire filters. You can search by name, title, current_position, score and summary"}, :status => 400
     end
@@ -50,13 +53,14 @@ class Api::ProfilesController < ActionController::Base
   ## Returns the resulted profiles by the skills search query
   ## searchable columns: skills
   def skills_search
-    # pagination??
     if params[:skills].present?
       # skills will be sent as a comma seperated string
       q = {}
       q[:skills_overlap] = params[:skills].split(",").collect {|skill| skill.strip}
       @q = Profile.ransack(q)
-      @profiles = @q.result.includes(:experiences, :educations)
+      @q.sorts = 'id ASC'
+      @page = params[:page].to_i > 0 ? params[:page].to_i : 1
+      @profiles = @q.result.includes(:experiences, :educations).paginate(page: @page, per_page: PER_PAGE)
     else
       render :json => {:message => "You must pass 'skills' parameter as a comma seperated skills string."}, :status => 400
     end

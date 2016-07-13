@@ -1,5 +1,5 @@
 object @profile
-attributes :state, :uuid, :score, :full_name, :last_name, :first_name, :current_position, :short_summary, :title, :skills
+attributes :id, :state, :uuid, :score, :full_name, :last_name, :first_name, :current_position, :short_summary, :title, :skills
 
 node false do |profile|
   child profile.educations, :root => "educations", :object_root => false do |edu|
