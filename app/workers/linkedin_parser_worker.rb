@@ -4,8 +4,7 @@ class LinkedinParserWorker
   sidekiq_options retry: 3
 
   def perform(profile_id)
-    profile = Profile.find_by_id(profile_id)
-    return if profile.nil?
+    profile = Profile.find(profile_id)
 
     if profile.process
       if ProfileParser.parse_linkedin_profile(profile)

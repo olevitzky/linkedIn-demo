@@ -1,7 +1,11 @@
 object false
 
-node :total do
-  @profiles.try(:size)
+node :total_results do
+  @profiles.try(:total_entries).to_i
+end
+
+node :pagination do
+  {:current_page => @page, :total_pages => @profiles.try(:total_pages).to_i}
 end
 
 child @profiles, :root => "profiles", :object_root => false do |profile|

@@ -5,7 +5,8 @@ class Api::ProfilesController < ActionController::Base
 
   ## GET
   def index
-    @profiles = Profile.includes(:experiences, :educations).all
+    @page = params[:page].to_i > 0 ? params[:page].to_i : 1
+    @profiles = Profile.includes(:experiences, :educations).paginate(page: @page, per_page: PER_PAGE)
   end
 
   def show
