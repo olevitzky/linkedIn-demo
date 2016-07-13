@@ -1,16 +1,14 @@
 # This class takes a LinkedIn url (or LinkedIn username), and parses the page if such exists.
-# Here I use a ruby gem called 'linkedin-scraper' to get the profile data and saves what we need into the database.
 require 'open-uri'
 
 class ProfileParser
   BASE_LINKED_IN_URL = "https://www.linkedin.com/in/"
 
-  # Returns true if the given username was parsed successfully
+  # Returns true if the given profile was parsed successfully
   def self.parse_linkedin_profile(profile)
     parser = ProfileParser.new(profile)
     parser.parse!
   rescue Exception => e
-    puts "parse_linkedin_profile Exception: #{e}"
     return nil
   end
 
@@ -32,7 +30,6 @@ class ProfileParser
     
     true    
   rescue Exception => e
-    puts "parse! Exception: #{e}"
     return nil
   end
 
