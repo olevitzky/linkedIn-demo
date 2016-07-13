@@ -16,13 +16,7 @@ class ProfileParser
 
   def initialize(profile)
     @profile = profile
-    @doc = Nokogiri::HTML(get_linkedin_html)
-  end
-
-  # Returns the requested html from LinkedIn to be parsed
-  def get_linkedin_html
-    profile_url = "#{BASE_LINKED_IN_URL}#{@profile.uuid}"
-    open(profile_url)
+    @doc = Nokogiri::HTML(open("#{BASE_LINKED_IN_URL}#{@profile.uuid}"))
   end
 
   def parse!
@@ -43,7 +37,6 @@ class ProfileParser
   end
 
   def parse_basic_details
-    puts "###### Saving basic details ######"
     overview = @doc.css(".profile-overview-content")[0]
     name_node = overview.css("#name").first.try(:text)
     full_name_array = name_node.present? ? name_node.split(" ") : []

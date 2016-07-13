@@ -1,0 +1,405 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.linkedin.com/in/not-existing-profile-for-sure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Play
+      Date:
+      - Wed, 13 Jul 2016 11:49:31 GMT
+      X-Fs-Uuid:
+      - 26725697a2d76014409b0edf392b0000
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - sameorigin
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Li-Fabric:
+      - prod-ltx1
+      Strict-Transport-Security:
+      - max-age=0
+      Set-Cookie:
+      - JSESSIONID=ajax:5620349469521561210; Path=/; Domain=.www.linkedin.com
+      - bcookie="v=2&6969e206-0ecd-47c3-81a4-d24a83efe675"; domain=.linkedin.com;
+        Path=/; Expires=Fri, 13-Jul-2018 23:27:04 GMT
+      - bscookie="v=1&2016071311493186a14bf2-86e2-4d7d-8806-a170ca404d89AQFnC20fM5V2Aso3RT-liDQPagcOQT85";
+        domain=.www.linkedin.com; Path=/; Secure; Expires=Fri, 13-Jul-2018 23:27:04
+        GMT; HttpOnly
+      - lidc="b=TGST06:g=89:u=1:i=1468410572:t=1468496972:s=AQGUmX_E5ITo9w-kl5ShtSCSTFTg7aEN";
+        Expires=Thu, 14 Jul 2016 11:49:32 GMT; domain=.linkedin.com; Path=/
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-tln1
+      X-Li-Uuid:
+      - JnJWl6LXYBRAmw7fOSsAAA==
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n    \n \n \n \n \n \n \n \n \n\n\n \n \n \n\n \n \n\n<!--[if
+        lt IE 7]> <html lang=\"en\" class=\"ie ie6 lte9 lte8 lte7 os-other\"> <![endif]-->\n<!--[if
+        IE 7]> <html lang=\"en\" class=\"ie ie7 lte9 lte8 lte7 os-other\"> <![endif]-->\n<!--[if
+        IE 8]> <html lang=\"en\" class=\"ie ie8 lte9 lte8 os-other\"> <![endif]-->\n<!--[if
+        IE 9]> <html lang=\"en\" class=\"ie ie9 lte9 os-other\"> <![endif]-->\n<!--[if
+        gt IE 9]> <html lang=\"en\" class=\"os-other\"> <![endif]-->\n<!--[if !IE]><!-->
+        <html lang=\"en\" class=\"os-other\"> <!--<![endif]-->\n\n\n  \n\n\n\n\n\n\n\n\n<head>\n<meta
+        charset=\"UTF-8\"/>\n\n    \n\n<title>Profile Not Found | LinkedIn</title>\n\n\n\n
+        \ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n \n \n \n\n
+        \n \n\n\n\n\n <meta name=\"referrer\" content=\"origin\"/> \n\n<meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge\">\n\n\n <meta name=\"pageImpressionID\" content=\"6e0cf1e0-484d-4b0f-a568-a030f6927b1b\">\n
+        \n <meta name=\"appName\" content=\"chrome\">\n \n \n \n \n \n \n <meta name=\"pageKey\"
+        content=\"public_profile_v3_desktop\">\n \n\n\n <meta name=\"treeID\" content=\"JnJWl6LXYBRAmw7fOSsAAA==\">\n
+        \n\n \n \n \n \n\n <meta name=\"globalTrackingUrl\" content=\"//www.linkedin.com/mob/tracking\">\n
+        <meta name=\"globalTrackingAppName\" content=\"chrome\">\n <meta name=\"globalTrackingAppId\"
+        content=\"webTracking\">\n \n\n \n \n \n \n \n\n\n  \n\n      \n      \n      \n
+        \     \n      \n      \n      \n    \n<!--[if lte IE 8]>\n  <link rel=\"shortcut
+        icon\" href=\"https://static.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico\">\n<![endif]-->\n<!--[if
+        IE 9]>\n  <link rel=\"shortcut icon\" href=\"https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico\">\n<![endif]-->\n<link
+        rel=\"icon\" href=\"https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico\">\n\n\n<link
+        rel=\"apple-touch-icon-precomposed\" href=\"https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png\">\n\n\n<meta
+        name=\"msapplication-TileImage\" content=\"https://static.licdn.com/scds/common/u/images/logos/linkedin/logo-in-win8-tile-144_v1.png\"/>\n<meta
+        name=\"msapplication-TileColor\" content=\"#0077B5\"/>\n<meta name=\"application-name\"
+        content=\"LinkedIn\"/>\n\n\n\n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n    \n\n\n\n\n\n\n\n      \n    \n  \n  \n      \n      \n\n      \n
+        \       \n      \n\n\n\n\n\n\n\n\n\n\n\n\n      \n      \n    \n    \n  \n
+        \   \n    \n  \n  \n  \n\n  \n  \n\n\n\n\n\n\n\n    \n  \n\n\n    \n  \n\n\n\n
+        \   \n      \n        \n          \n            \n                \n              \n
+        \         \n        \n      \n    \n    \n\n\n\n    \n    \n\n\n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n\n      \n      \n
+        \       \n        \n\n      \n      \n      \n      \n      \n      \n      \n
+        \   \n\n\n      \n    \n  \n      \n      \n  \n      \n      \n\n      \n
+        \       \n      \n\n\n\n\n\n\n\n    \n    \n  \n\n\n\n\n\n\n      \n    \n
+        \     \n      \n    \n\n\n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n    \n\n\n    \n  \n      \n\n      \n      \n\n\n\n\n\n\n\n     \n
+        \     \n    \n    \n        \n\n\n\n\n      \n    \n  \n      \n      \n\n
+        \     \n        \n      \n\n\n\n\n\n  \n\n\n\n\n\n    \n\n  \n      \n      \n
+        \       \n        \n\n      \n      \n      \n      \n      \n      \n      \n
+        \   \n\n\n      \n    \n  \n      \n      \n  \n      \n      \n\n      \n
+        \       \n      \n\n\n\n\n\n\n\n    \n    \n  \n\n\n\n\n\n\n      \n    \n
+        \     \n      \n    \n\n      \n                \n    \n    \n\n\n\n\n\n\n<meta
+        content=\"https://static.licdn.com/scds/concat/common/js?v=build-2000_8_57010-prod\"
+        name=\"RemoteNavJSContentBaseURL\" />\n\n\n\n     \n      \n    \n    \n      \n
+        \   \n    \n\n      \n      \n    \n\n      \n      \n    \n    \n    \n    \n
+        \   \n\n  \n\n \n \n \n \n\n\n\n      \n        \n          \n            \n
+        \         \n          \n        \n      \n    \n\n      \n        \n          \n
+        \         \n        \n      \n    \n\n\n      \n      \n    \n    \n    \n
+        \   \n    \n\n      \n      \n    \n    \n    \n                    <script
+        src=\"https://static.licdn.com:443/scds/common/u/lib/fizzy/fz-1.3.8-min.js\"
+        type=\"text/javascript\"></script><script type=\"text/javascript\">fs.config({\"failureRedirect\":\"http://www.linkedin.com/\",\"uniEscape\":true,\"xhrHeaders\":{\"X-FS-Origin-Request\":\"/public-profile/in/not-existing-profile-for-sure\",\"X-FS-Page-Id\":\"public_profile_v3_desktop\"}});</script><script
+        type=\"text/javascript\" src=\"https://static.licdn.com/scds/concat/common/js?h=7ndrn0f9fw0hum7uoqcjcnzne-95d8d303rtd0n9wj4dcjbnh2c-7vr4nuab43rzvy2pgq7yvvxjk-9qa4rfxekcw3lt2c06h7p0kmf\"></script>\n
+        \   \n    \n\n\n  \n\n\n\n\n\n\n\n\n\n\n     \n      \n    \n    \n  \n    \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n    \n\n\n
+        \    \n      \n    \n    \n  \n\n      \n                \n    \n    \n\n
+        \   \n  \n\n      \n      \n        \n          \n            \n                \n
+        \                 \n                  \n                    <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"https://static.licdn.com/scds/concat/common/css?h=6cr4z4epp0a5mxufg332nezs4-a4kjc5uqttio53azw54aex6s3-as8kt5bqspxc01tl9cizqa37j\">\n
+        \                 \n                \n              \n          \n        \n
+        \     \n    \n    \n\n\n      \n      \n    \n    \n  \n  \n  \n      \n      \n
+        \     \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n<script></script>\n\n<!--[if
+        IE 8]><script src=\"https://static.licdn.com/scds/common/u/lib/polyfill/1.0.2/ie8-polyfill.min.js\"></script><![endif]-->\n<!--[if
+        IE 9]><script src=\"https://static.licdn.com/scds/common/u/lib/polyfill/1.0.2/ie9-polyfill.min.js\"></script><![endif]-->\n\n\n
+        \n \n \n\n\n\n  \n    \n      \n\n\n\n\n\n\n\n\n\n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n    \n\n\n\n\n \n \n \n \n \n \n \n \n\n\n\n\n
+        \     \n      \n      \n      \n      \n      \n      \n    \n\n\n\n      \n
+        \     \n    \n    \n  \n  \n\n    \n      \n        \n          \n            \n
+        \               \n              \n          \n        \n      \n    \n    \n\n\n
+        \     \n      \n    \n    \n  \n\n    \n      \n        \n          \n            \n
+        \               \n              \n          \n        \n      \n    \n    \n\n\n\n
+        \ <meta name=\"lnkd-track-json-lib\" content=\"https://static.licdn.com/scds/concat/common/js?h=2jds9coeh4w78ed9wblscv68v-ebbt2vixcc5qz0otts5io08xv\">\n
+        \ <meta name=\"lnkd-track-lib\" content=\"https://static.licdn.com/scds/concat/common/js?h=ebbt2vixcc5qz0otts5io08xv\">\n\n\n\n\n\n\n\n<meta
+        name=\"lnkd-track-error\" content=\"/lite/ua/error?csrfToken=ajax%3A2436467756021748337\">\n\n\n
+        \     \n      \n    \n    \n  \n  \n  \n  \n\n    \n      \n        \n          \n
+        \           \n                \n              \n          \n        \n      \n
+        \   \n    \n\n\n\n      \n      \n      \n      \n      \n      \n      \n
+        \   \n\n\n\n\n      \n    \n  \n      \n      \n\n      \n        \n      \n\n\n
+        \ \n\n\n  \n\n\n\n\n\n\n\n\n\n  \n  \n      \n      \n    \n    \n    \n      \n
+        \     \n    \n  \n    \n      \n        \n          \n            \n                \n
+        \             \n          \n        \n      \n    \n    \n\n  \n\n \n \n \n
+        \n \n \n    \n  \n\n    \n      \n        \n          \n            \n                \n
+        \                 \n                    <script type=\"text/javascript\" src=\"https://static.licdn.com/scds/concat/common/js?h=e2lgukqldpqool72t8g7tysag-3nuvxgwg15rbghxm1gpzfbya2-1nm61x5u7981e88m10hpaekkm-mv3v66b8q0h1hvgvd3yfjv5f-14k913qahq3mh0ac0lh0twk9v\"></script>\n
+        \                 \n                  \n                \n              \n
+        \         \n        \n      \n    \n    \n\n\n\n\n\n\n\n\n\n\n          \n
+        \       \n        \n      \n      \n        <meta name=\"description\" content=\"LinkedIn
+        strengthens and extends your existing network of trusted contacts. LinkedIn
+        is a networking tool that helps you discover inside connections to recommended
+        job candidates, industry experts and business partners.\"><link rel=\"stylesheet\"
+        href=\"https://static.licdn.com/sc/h/cmqdarnz8ksen67kw9vbijhjj\"/>\n      \n
+        \   \n        \n            </head>\n        \n        \n      \n      \n
+        \       \n      \n    \n        \n            \n    \n\n \n \n \n \n \n \n
+        \n \n\n\n\n \n \n \n \n \n <body class=\"js guest\" dir=\"ltr\" id=\"pagekey-public_profile_v3_desktop\">\n\n\n
+        \           \n\n\n      \n    \n  \n      \n      \n\n      \n        \n      \n\n\n\n\n\n\n\n\n\n
+        \ \n<div id=\"application-body\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n \n \n
+        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n\n\n \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n \n \n \n\n\n\n\n \n \n \n \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \     \n    \n  \n      \n      \n\n      \n        \n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<header
+        id=\"layout-header\" class=\"layout-header-or-footer\" role=\"banner\">\n\n
+        \ \n  \n\n  \n  \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n    \n\n\n    \n  \n      \n\n      \n      \n\n\n<div id=\"header-banner\">\n
+        \ <div class=\"wrapper\">\n    <a class=\"banner-logo-container guest\" href=\"http://www.linkedin.com/\">\n
+        \     <h2 id=\"li-logo\" class=\"logo\">\n        LinkedIn Home\n      </h2>\n
+        \   </a>\n    <nav role=\"navigation\" class=\"nav guest-nav\" aria-label=\"Main
+        site navigation\">\n      <ul role=\"menubar\">\n        <li role=\"menuitem\"
+        class=\"nav-item\">\n          <a class=\"nav-link\" href=\"http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what\">\n
+        \           What is LinkedIn?\n          </a>\n        </li>\n        <li
+        role=\"menuitem\" class=\"nav-item\">\n          <a rel=\"nofollow\" class=\"nav-link\"
+        href=\"/start/join?trk=hb_join\">\n            Join Today\n          </a>\n
+        \       </li>\n        <li role=\"menuitem\" class=\"nav-item\">\n          <a
+        rel=\"nofollow\" class=\"nav-link\" href=\"https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin\">\n
+        \           Sign In\n          </a>\n        </li>\n      </ul>\n    </nav>\n
+        \ </div>\n</div>\n\n \n\n    \n\n  <div class=\"a11y-content\">\n    <a id=\"a11y-content-link\"
+        tabindex=\"0\" name=\"a11y-content\">Main content starts below.</a>\n  </div>\n\n\n\n\n
+        \    \n      \n    \n    \n      \n      \n        \n      \n    \n    \n\n
+        \     \n        \n          \n            \n            \n              \n
+        \               \n                  <script data-page-js-type=\"lix\">\n                    (function(n,
+        r, a) {\n                      r = window[n] = window[n] || {};\n                      \n
+        \                       \n                            r['jsecure_injectAlert']
+        = 'control';\n                          \n                      \n                        \n
+        \                           r['jsecure_Dialog'] = 'control';\n                          \n
+        \                     \n                    }('__li__lix_registry__'));\n
+        \                 </script>\n                \n                \n                \n
+        \             \n            \n            \n          \n            \n            \n
+        \           \n          \n            \n            \n            \n          \n
+        \       \n      \n    \n\n      \n      \n    \n    \n    \n      \n        \n
+        \     \n    \n    \n\n\n</header>\n\n\n \n \n \n \n \n\n \n\n\n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n \n \n \n \n \n\n \n \n\n\n\n
+        \n \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n    \n\n\n
+        \     \n    \n  \n      \n      \n\n      \n        \n      \n\n\n\n \n\n\n\n
+        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n\n \n \n \n \n \n\n
+        \n \n\n\n\n\n\n\n \n \n\n\n\n\n\n\n            \n\n\n\n\n  \n<main id=\"layout-main\"
+        role=\"main\">\n\n\n\n\n        \n        \n      \n      \n        <div id=\"wrapper\"><div
+        id=\"content\"><h1>Profile Not Found</h1><p>An exact match for <strong>not-existing-profile-for-sure</strong>
+        could not be found.</p><p>The LinkedIn profile you're looking for isn't public
+        or doesn't exist. To search and filter LinkedIn's 400 million members, <a
+        href=\"https://www.linkedin.com\">log in or join LinkedIn today.</a></p></div><div
+        id=\"directory\" class=\"us\"><h3 class=\"title\">LinkedIn member directory:</h3><ol
+        type=\"a\" class=\"primary\"><li><a href=\"https://www.linkedin.com/directory/people-a/\">a</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-b/\">b</a></li><li><a href=\"https://www.linkedin.com/directory/people-c/\">c</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-d/\">d</a></li><li><a href=\"https://www.linkedin.com/directory/people-e/\">e</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-f/\">f</a></li><li><a href=\"https://www.linkedin.com/directory/people-g/\">g</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-h/\">h</a></li><li><a href=\"https://www.linkedin.com/directory/people-i/\">i</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-j/\">j</a></li><li><a href=\"https://www.linkedin.com/directory/people-k/\">k</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-l/\">l</a></li><li><a href=\"https://www.linkedin.com/directory/people-m/\">m</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-n/\">n</a></li><li><a href=\"https://www.linkedin.com/directory/people-o/\">o</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-p/\">p</a></li><li><a href=\"https://www.linkedin.com/directory/people-q/\">q</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-r/\">r</a></li><li><a href=\"https://www.linkedin.com/directory/people-s/\">s</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-t/\">t</a></li><li><a href=\"https://www.linkedin.com/directory/people-u/\">u</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-v/\">v</a></li><li><a href=\"https://www.linkedin.com/directory/people-w/\">w</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-x/\">x</a></li><li><a href=\"https://www.linkedin.com/directory/people-y/\">y</a></li><li><a
+        href=\"https://www.linkedin.com/directory/people-z/\">z</a></li><li><a href=\"https://www.linkedin.com/directory/people-1/\">more</a></li><li
+        class=\"country-search\">Browse members <a href=\"https://www.linkedin.com/directory/country_listing/\">by
+        country</a></li></ol></div></div>\n      \n    \n        \n            \n\n\n\n\n
+        \ </main> \n\n\n        \n        \n      \n      \n        \n      \n    \n
+        \       \n            \n            \n\n\n\n\n\n\n\n\n      \n      \n    \n
+        \   \n\n  \n\n    \n    \n\n\n\n\n\n\n      \n    \n  \n      \n      \n\n
+        \     \n        \n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \ \n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n\n    \n\n    \n\n
+        \   \n\n    \n  \n\n\n  \n\n    \n    \n    \n\n\n\n\n      \n    \n  \n      \n
+        \     \n\n      \n        \n      \n\n\n\n\n  \n  \n\n\n\n\n    \n  \n\n\n\n\n\n\n
+        \   \n    \n    \n      \n    \n\n    \n    \n\n\n\n\n\n\n\n    \n    \n        \n
+        \           \n          \n      \n  \n\n    \n    \n\n    \n    \n\n    \n
+        \     \n    \n\n    \n    \n    \n\n    \n    \n\n    \n\n    \n\n\n    \n\n
+        \   \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n      \n\n\n\n\n\n\n\n
+        \   \n  \n\n\n\n  \n    \n        \n      \n  \n\n\n    \n\n    \n\n    \n
+        \   \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \ \n\n\n    \n      \n        \n          \n            \n                \n
+        \                 \n                    <script type=\"text/javascript\" src=\"https://static.licdn.com/scds/concat/common/js?h=a06jpss2hf43xwxobn0gl598m-44hhbxag3hinac547ym9vby09-a4lcy9x33w9gvnro4s0fw3e8z-9zz2lhu3eq1epk7sq1t8cdb5s-cka8kpkro4boynr3tivfkppls-9o2gces8tdiaq46j2fgjkg6d4-bctwwqj7p01tcj2smshz2bboe-aaykw1861wb5yl2yeseicumeh-bftaa82sjwcbrohoe28skni7b-2r8hqscu9unerft0cqwr58gz1-acapv3trxf5gmj7o87qomcp3f-cfabcg4u1cj0em4yissh5mfxu\"></script>\n
+        \                 \n                  \n                \n              \n
+        \         \n        \n      \n    \n    \n\n\n      \n      \n    \n    \n\n\n\n\n\n\n\n\n
+        \ \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \     \n    \n  \n  \n      \n      \n\n      \n        \n      \n\n\n\n      \n
+        \       \n          \n            \n          \n          \n        \n      \n
+        \   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  <footer id=\"layout-footer\" class=\"layout-header-or-footer\"
+        role=\"contentinfo\">\n    <div class=\"wrapper\">\n      \n\n      \n        \n\n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n    \n\n\n\n\n\n\n\n\n\n
+        \     \n    \n  \n      \n      \n\n      \n        \n      \n\n\n\n\n\n\n\n\n\n\n
+        \ \n      <p class=\"copyright guest\"><span>LinkedIn Corporation</span> <em>&copy;
+        2016</em></p>\n    \n\n  <ul class=\"nav-legal\" role=\"navigation\" aria-label=\"Footer
+        Legal Menu\">\n    <li role=\"menuitem\"><a href=\"http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag\">User
+        Agreement</a></li>\n    <li role=\"menuitem\"><a href=\"http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv\">Privacy
+        Policy</a></li>\n    \n    <li role=\"menuitem\"><a href=\"https://linkedin.com/help/linkedin/answer/34593?lang=en\">Community
+        Guidelines</a></li>\n    <li role=\"menuitem\"><a href=\"http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie\">Cookie
+        Policy</a></li>\n    <li role=\"menuitem\"><a href=\"http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy\">Copyright
+        Policy</a></li>\n    \n    \n      <li role=\"menuitem\"><a href=\"/psettings/guest-email-unsubscribe?trk=hb_ft_gunsub\"
+        rel=\"nofollow\">Unsubscribe</a></li>\n    \n\n    \n\n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n    \n\n\n\n\n\n\n  \n \n\n  </ul>\n\n \n
+        \n \n \n \n \n \n\n      \n\n    </div> \n  </footer> \n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n
+        \     \n        \n          \n            \n            \n            \n          \n
+        \           \n            \n            \n          \n            \n            \n
+        \             \n                \n                  <script data-page-js-type=\"config\">\n
+        \                   (function(n, r, a) {\n                      r = window[n]
+        = window[n] || {};\n                      \n                        \n                            \n
+        \                               a = r['WebTracking'] = r['WebTracking'] ||
+        {};\n                                a['URLs'] = {'saveWebActionTrackURL':'\\/lite\\/secure-web-action-track?csrfToken=ajax%3A2436467756021748337'};\n
+        \                             \n                          \n                      \n
+        \                   }('__li__config_registry__'));\n                  </script>\n
+        \               \n                \n                \n              \n            \n
+        \           \n          \n        \n      \n    \n\n  \n  \n\n  \n      \n
+        \     \n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n    \n    \n
+        \   \n    \n    \n    \n    \n\n    \n    \n\n      \n      \n      \n      \n
+        \     \n      \n      \n    \n\n\n\n\n\n\n      \n    \n  \n      \n      \n\n
+        \     \n        \n      \n\n\n\n\n\n\n\n\n  \n\n  \n  \n  \n  \n  \n  \n  \n\n\n\n
+        \ \n  \n\n\n\n  \n  \n\n\n\n\n  \n  \n  \n\n\n\n\n\n\n\n \n\n\n\n\n\n\n    \n
+        \   \n\n    \n    \n      \n      \n        \n        \n\n      \n      \n
+        \     \n      \n      \n      \n      \n    \n\n\n      \n    \n  \n      \n
+        \     \n  \n      \n      \n\n      \n        \n      \n\n\n\n\n\n\n\n    \n
+        \   \n  \n\n\n\n\n\n\n      \n    \n      \n        \n      \n    \n\n  \n
+        \   \n      \n        \n          \n            \n                \n              \n
+        \         \n        \n      \n    \n    \n \n\n\n  \n  \n\n\n      \n      \n
+        \     \n      \n      \n      \n      \n    \n\n\n\n\n      \n    \n  \n      \n
+        \     \n\n      \n        \n      \n\n\n\n\n  \n    \n      \n        \n          \n
+        \           \n          \n          \n        \n      \n    \n    \n    \n
+        \     \n        \n          \n            \n          \n          \n        \n
+        \     \n    \n\n    \n    \n      \n        \n          \n            \n          \n
+        \         \n        \n      \n    \n    \n      \n        \n          \n          \n
+        \       \n      \n    \n\n    \n    \n      \n        \n          \n          \n
+        \       \n      \n    \n\n    \n      \n        \n          \n            \n
+        \           \n              \n                \n                  <script
+        data-page-js-type=\"lix\">\n                    (function(n, r, a) {\n                      r
+        = window[n] = window[n] || {};\n                      \n                        \n
+        \                           r['global_bsp_notice_type'] = 'warning';\n                          \n
+        \                     \n                        \n                            r['global_bsp_notice_autoHide']
+        = 'false';\n                          \n                      \n                        \n
+        \                           r['global_bsp_view_threshold'] = 'c5';\n                          \n
+        \                     \n                    }('__li__lix_registry__'));\n
+        \                 </script>\n                \n                \n                \n
+        \             \n            \n            \n          \n            \n            \n
+        \             \n                \n                  <script data-page-js-type=\"i18n\">\n
+        \                   (function(n, r, a) {\n                      r = window[n]
+        = window[n] || {};\n                      \n                        \n                            r['global_browser_unsupported_notice']
+        = 'Looks like you\\'re using a browser that\\'s not supported. <a target=\\\"_blank\\\"
+        href=\\\"https:\\/\\/linkedin.com\\/help\\/linkedin\\/answer\\/4135?lang=en\\\">Learn
+        more about browsers you can use.<\\/a>';\n                          \n                      \n
+        \                   }('__li__i18n_registry__'));\n                  </script>\n
+        \               \n                \n                \n              \n            \n
+        \           \n          \n            \n            \n              \n                \n
+        \                 <script data-page-js-type=\"config\">\n                    (function(n,
+        r, a) {\n                      r = window[n] = window[n] || {};\n                      \n
+        \                       \n                            \n                                a
+        = r['global:browserSupportPolicy'] = r['global:browserSupportPolicy'] || {};\n
+        \                               a['supportedBrowserMinVersions'] = {      ie:
+        \            'v10',      firefox:        'v38',      opera:          'control',
+        \     safari:         'v6.1',      chrome:         'v42',      mobileSafari:
+        \  'v7',      android:        'v2.3',      androidChrome:  'v0'    };\n                              \n
+        \                         \n                      \n                    }('__li__config_registry__'));\n
+        \                 </script>\n                \n                \n                \n
+        \             \n            \n            \n          \n        \n      \n
+        \   \n\n    \n    \n      \n      \n    \n    \n      \n    \n    \n      \n
+        \       \n          \n            \n                \n              \n          \n
+        \       \n      \n    \n    \n  \n\n\n\n\n  \n  \n \n \n \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n \n\n\n \n \n \n\n \n \n\n\n\n \n \n \n \n\n \n
+        \n \n \n \n \n \n\n\n\n     \n      \n    \n    \n      \n      \n        \n
+        \     \n    \n    \n\n      \n        \n          \n            \n            \n
+        \           \n          \n            \n            \n            \n          \n
+        \           \n            \n            \n          \n        \n      \n    \n\n
+        \     \n      \n    \n    \n    \n      \n        \n          \n            \n
+        \               \n                  \n                    <script type=\"text/javascript\"
+        src=\"https://static.licdn.com/scds/concat/common/js?h=3kp2aedn5pmamdr4dk4n8atur-3ti5bgrnb6idjtk0w4chaigxe-5hqr1i1uoezoj0z1s5gcxojf2-71o37tcjwl0ishto9izvyml3i-3bbdjshpw5ov0rwa8xe08tp97-cayct4cirf7n0f9z1xsg84g0q-dktkawxk7k8pixuh5g8z5ku32-213zbp2wzp99lviwl8g2cvq6i-1lknwtftishpdmobzm413yc7u-bcxa0v9ke411pjpmz4s239f9b-10wg3j2jlwnawjalr4lur4ho3-82rcsw42m1wbgsti4m3j0kvg6-f3la2n4kbk7vr56j54qax1oif-1eq1il9757v2zkuru6hu14q2e-8sox1gztdjnz2un89fi8fyw35-8hdbl769kuhp0h4bsexhsbks0-d8q8zy9bxe530nqv2fct70nwo-c6ct0moql4p4ngtzltmf8l3ly-8h514j3fiwnzuwkt66sbxsu8f-di2z9sra5co9la7ogqyesywin\"></script>\n
+        \                 \n                  \n                \n              \n
+        \         \n        \n      \n    \n    \n\n\n\n\n\n    \n      \n        \n
+        \     \n    \n    \n\n\n\n      \n        \n          \n            \n            \n
+        \           \n          \n            \n            \n            \n          \n
+        \           \n            \n            \n          \n        \n      \n    \n\n
+        \           \n        \n        \n      \n      \n        \n      \n    \n
+        \       \n            \n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n    \n\n\n      \n      \n    \n    \n    \n
+        \     \n        \n      \n    \n    \n\n\n\n \n \n \n \n \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n\n\n \n \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n \n \n \n
+        \n \n\n \n\n \n \n \n\n \n \n \n \n \n \n\n \n\n \n\n \n \n \n \n \n\n <script
+        type=\"text/javascript\">\n\n if (!window.LI) { window.LI = {}; }\n LI.RUM
+        = LI.RUM || {};\n\n (function(RUM, win) {\n\n var doc = win.document;\n\n
+        RUM.flags = RUM.flags || {};\n RUM.flags['host-flag'] = \"control\";\n RUM.flags['pop_beacons_frequency']
+        = \"n100-ap0-la0-va0-tx0-sg0-db0-hk0-sp0-ln0-ch0-sy0-mu0-mi0-llnw0-akam0-cdxscdn0-cdxssmall0-wwwsmall0\";\n
+        RUM.flags['rs_timings_individual'] = \"n5000\";\n RUM.flags['rs_timings_individual_detail']
+        = \"enabled\";\n\n RUM.urls = RUM.urls || {};\n RUM.urls['rum-track'] = \"\\/lite\\/rum-track?csrfToken=ajax%3A2436467756021748337\";\n
+        RUM.urls['boomerang-bw-img'] = \"https:\\/\\/static.licdn.com\\/scds\\/common\\/u\\/lib\\/boomerang\\/0.9.edge.4ab208445a\\/img\\/\";\n\n
+        RUM.base_urls = RUM.base_urls || {};\n RUM.base_urls['permanent_content']
+        = \"https:\\/\\/static.licdn.com\\/scds\\/common\\/u\\/\";\n RUM.base_urls['versioned_content']
+        = \"https:\\/\\/static.licdn.com\\/scds\\/concat\\/common\\/\";\n RUM.base_urls['media_proxy']
+        = \"https:\\/\\/media.licdn.com\\/media-proxy\\/\";\n\n RUM.serverStartTime
+        = 1.468410571929E12;\n\n RUM.enabled = true;\n\n function getRumScript() {\n
+        var node = doc.body || doc.head || doc.getElementsByTagName('head')[0],\n
+        script = doc.createElement('script');\n script.src = \n [\"https://static.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-34tiets5jpj294jd59h8c4s0n-28w7d5j2k2jtil9ncckolke4m-9jzlwicvu376y9q4vjq77y5ks-1m0whdrwis44c1hoa9mrwhlt4-1uvutm1mpyov7rqhtcf8fksby-aac54ic1fmca5xz1yvc5t9nfe-1hn40w0bomeivihj9lopp4hp2-c0121povror81d0xao0yez4gy\"]\n
+        [0];\n node.appendChild(script);\n }\n\n if (win.addEventListener) {\n win.addEventListener('load',
+        getRumScript);\n }\n else {\n win.attachEvent('onload', getRumScript);\n }\n\n
+        }(LI.RUM, window));\n </script>\n\n\n\n\n\n\n\n \n \n \n \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n\n\n\n \n \n \n\n \n \n\n\n\n\n\n <meta name=\"detectAdBlock\"
+        content=\"//platform.linkedin.com/js/px.js\"/>\n <script src=\"https://static.licdn.com/scds/concat/common/js?h=69w33ou4umkyupw2uqgn7za7w\"
+        async defer></script>\n\n\n\n\n\n\n\n  \n  \n\n    \n    \n \n \n \n \n \n
+        \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n \n \n \n\n \n \n\n<script class=\"comscore-tracking\">\n
+        (function(_e, _r) {\n var isNielsenDisabled = true;\n var providers = {\n
+        'COMSCORE': {\n 'treatment': 'control'\n }\n };\n if (!isNielsenDisabled)
+        {\n providers['NIELSEN'] = {\n 'treatment': 'control'\n };\n }\n\n var fireComscore
+        = function() {\n var comScore = window.COMSCORE;\n if (comScore) {\n comScore.beacon({
+        c1: 2, c2: 6402952, c3: '', c4: '', c5: '', c6: '', c15: '' });\n }\n };\n\n
+        var uc = window.encodeURIComponent, timeStamp = (new Date()).getTime();\n
+        var fireExternalTracking = function(et) {\n if (typeof et.trackPageChromeInit
+        === 'function') {\n et.trackPageChromeInit(providers);\n } else {\n // Default
+        treatment if not read from LIX.\n et.setTreatment('enabled_1.0');\n et.trackWithComScoreForChromeInit();\n
+        if (!isNielsenDisabled) {\n var img = new Image(1, 1);\n img.onerror = img.onload
+        = function () {\n img.onerror = img.onload = null;\n };\n img.src = [\n \"//secure-gl.imrworldwide.com/cgi-bin/m?ci=au-linkedin&cc=1&si=\",\n
+        uc(window.location.href),\n \"&rp=\", uc(document.referrer), \"&ts=compact&rnd=\",
+        timeStamp\n ].join('');\n }\n }\n };\n var track = function() {\n var et;\n
+        if (_e) {\n fireExternalTracking(_e);\n } else if (_r && typeof _r.ensure
+        === 'function') {\n try {\n _r.ensure(['externalTracking'], function (require)
+        {\n try {\n et = require('externalTracking');\n fireExternalTracking(et);\n
+        } catch (e) {\n fireComscore();\n }\n });\n } catch (e) {\n fireComscore();\n
+        }\n } else if (_r && _r._is_li) {\n try {\n et = require('externalTracking');\n
+        fireExternalTracking(et);\n } catch (e) {\n fireComscore();\n }\n } else {\n
+        fireComscore();\n }\n };\n window.addEventListener('load', track);\n }(window.externalTracking,
+        window.require));\n</script>\n<noscript>\n <img src=\"https://sb.scorecardresearch.com/b?c1=2&amp;c2=6402952&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1\"
+        style=\"display:none\" width=\"0\" height=\"0\" alt=\"\" />\n</noscript>\n
+        \n \n \n\n\n\n\n    \n    \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
+        \n \n \n\n\n \n \n \n\n \n \n\n <script type=\"text/javascript\">\n (function(d)
+        {\n function go() {\n var a = d.createElement('iframe');\n a.style.display
+        = 'none';\n a.setAttribute('sandbox', 'allow-scripts allow-same-origin');\n
+        a.src = '//radar.cedexis.com/1/11326/radar/radar.html';\n if (d.body) {\n
+        d.body.appendChild(a);\n }\n }\n\n if (window.addEventListener) {\n window.addEventListener('load',
+        go, false);\n } else if (window.addEvent) {\n window.addEvent('onload', go);\n
+        }\n }(document));\n </script>\n\n\n  \n  \n\n\n\n\n            \n\n\n\n\n
+        \ \n</div> \n\n\n            </body>\n            </html>\n        \n        \n
+        \     \n      \n        "
+    http_version: 
+  recorded_at: Wed, 13 Jul 2016 11:49:56 GMT
+recorded_with: VCR 3.0.3

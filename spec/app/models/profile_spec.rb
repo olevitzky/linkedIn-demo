@@ -1,5 +1,5 @@
 RSpec.describe Profile, type: :model do
-  let(:profile) { build(:profile) }
+  let(:profile) { build(:profile, :draft) }
 
   describe "state machine" do
     context "when its a new profile" do
