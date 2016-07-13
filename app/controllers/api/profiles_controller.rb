@@ -34,16 +34,31 @@ class Api::ProfilesController < ActionController::Base
 
   ## GET
   ## Returns the resulted profiles by the search query
-  ## searchable columns: 
+  ## searchable columns: full_name, summary, title, current position, score
   def search
     # pagination??
     if params[:q].present?
       enhance_search_params
-      p params[:q]
       @q = Profile.ransack(params[:q])
       @profiles = @q.result.includes(:experiences, :educations)
     else
-      render :json => {:message => "You must pass 'q' parameter with the desire filters. You can search by full_name, title, current_position, skills and summary"}
+      render :json => {:message => "You must pass 'q' parameter with the desire filters. You can search by name, title, current_position, score and summary"}, :status => 400
+    end
+  end
+
+  ## GET
+  ## Returns the resulted profiles by the skills search query
+  ## searchable columns: skills
+  def skills_search
+    # pagination??
+    if params[:skills].present?
+      # skills will be sent as a comma seperated string
+      q = {}
+      q[:skills_overlap] = params[:skills].split(",").collect {|skill| skill.strip}
+      @q = Profile.ransack(q)
+      @profiles = @q.result.includes(:experiences, :educations)
+    else
+      render :json => {:message => "You must pass 'skills' parameter as a comma seperated skills string."}, :status => 400
     end
   end
 
@@ -51,11 +66,10 @@ private
 
   def enhance_search_params
     q = params[:q]
-    q[:full_name_cont] = q.delete(:full_name) if q[:full_name].present?
+    q[:full_name_cont] = q.delete(:name) if q[:name].present?
     q[:summary_cont] = q.delete(:summary) if q[:summary].present?
     q[:title_cont] = q.delete(:title) if q[:title].present?
     q[:current_position_cont] = q.delete(:current_position) if q[:current_position].present?
-    # skills will be sent as a comma seperated string
-    q[:skills_overlap] = q.delete(:skills).split(",").collect {|skill| skill.strip} if q[:skills].present?
+    q[:score_gteq] = q.delete(:score) if q[:score].present?
   end
 end

@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     resources :profiles do
       collection do
         get 'search'
+        get 'skills_search'
       end
     end
   end

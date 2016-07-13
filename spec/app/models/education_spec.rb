@@ -18,7 +18,6 @@ RSpec.describe Education, type: :model do
         education.total_years.should eq(0)
       end
     end
-    
 
     context "when final year is missing" do
       let(:final_year) { nil }

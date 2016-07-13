@@ -5,7 +5,7 @@ class LinkedinParserWorker
 
   def perform(profile_id)
     profile = Profile.find_by_id(profile_id)
-    profile.mark_as_failed and return if profile.nil?
+    return if profile.nil?
 
     if profile.process
       if ProfileParser.parse_linkedin_profile(profile)
